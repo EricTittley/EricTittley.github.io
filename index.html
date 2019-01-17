@@ -31,15 +31,17 @@
      <li class="nav-item">
       <a class="nav-link" data-toggle="tab" href="#research">Research</a>
      </li>
+<!-- Permanently Disable
+     <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#contact">Contact</a>
+     </li>
+-->
 <!--
     <li class="nav-item">
       <a class="nav-link" data-toggle="tab" href="#codes">Codes</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" data-toggle="tab" href="#skills">Students</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" data-toggle="tab" href="#contact">Contact</a>
     </li>
 -->
    </ul>
@@ -49,7 +51,7 @@
     <div id="home" class="container tab-pane active">
     <br>
 
-    <header class="jumbotron">
+    <div class="jumbotron">
      <div class="text-center">
       <img src="images/EricTittley.jpg" class="rounded-circle" alt="Eric Tittley" width="180" height="180"> 
       <h3>Hello, My name is <span class="eric">Eric Tittley</span> & I am a</h3>
@@ -61,7 +63,7 @@
        <button type="button" class="btn btn-primary btn-lg">Whiskier</button>
       </div>
      </div>
-    </header>
+    </div>
    </div>
 
    <div id="about" class="container tab-pane fade"><br>
@@ -78,6 +80,7 @@
    <div id="research" class="container tab-pane fade"><br>
     <div class="jumbotron text-center">
      <div class="container">
+
       <h2>Research</h2>
       <br>
       <div id="accordion">
@@ -92,8 +95,11 @@
           <p>
            How and when did the universe become re-ionized?
           </p>
+         </div>
         </div>
        </div>
+      </div>
+      <div id="accordion">
        <div class="card">
         <div class="card-header">
          <a class="collapsed card-link" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
@@ -111,6 +117,8 @@
          </div>
         </div>
        </div>
+      </div>
+      <div id="accordion">
        <div class="card">
         <div class="card-header">
          <a class="collapsed card-link" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
@@ -126,9 +134,38 @@
         </div>
        </div>
       </div>
+
      </div>
     </div>
    </div>
+
+  <!-- Contact -->
+<!--
+  <div id="contact" class="container tab-pane fade"><br>
+   <div id="contact" class="contact container-fluid jumbotron">
+    <div class="contact-info">
+     <div class="contact-heading  text-center">
+      <h5>Send me a message</h5>
+     </div>
+     <form action="mailto:Eric.Tittley@virginmedia.com" method="post" enctype="text/plain">
+      <div class="form-group">
+       <label for="name">Name:</label>
+       <input type="text" class="form-control" id="name" placeholder="Name" important>
+      </div>
+      <div class="form-group">
+       <label for="email">Email address:</label>
+       <input type="email" id="email" class="form-control" placeholder="Email" important>
+      </div>
+      <div class="form-group">
+       <label for="message">Message:</label>
+       <textarea class="form-control" rows="1" placeholder="Enter your message here..."></textarea>
+      </div>
+      <button type="submit" class="btn btn-success"><i class="fa fa-paper-plane" aria-hidden="true"></i> Submit</button>
+     </form>
+    </div>
+   </div>
+  </div>
+-->
 
 <!--
     <div id="acm" class="container tab-pane fade"><br>
@@ -177,32 +214,7 @@
   </div>
 -->
 
-  <!-- Contact -->
-  <div id="contact" class="container tab-pane fade"><br>
-   <section id="contact" class="contact container-fluid jumbotron">
-    <div class="contact-info">
-     <div class="contact-heading  text-center">
-      <h5>Send me a message</h5>
-     </div>
-     <form action="mailto:Eric.Tittley@virginmedia.com" method="post" enctype="text/plain">
-      <div class="form-group">
-       <label for="name">Name:</label>
-       <input type="text" class="form-control" id="name" placeholder="Name" important>
-      </div>
-      <div class="form-group">
-       <label for="email">Email address:</label>
-       <input type="email" id="email" class="form-control" placeholder="Email" important>
-      </div>
-      <div class="form-group">
-       <label for="message">Message:</label>
-       <textarea class="form-control" rows="1" placeholder="Enter your message here..."></textarea>
-      </div>
-      <button type="submit" class="btn btn-success"><i class="fa fa-paper-plane" aria-hidden="true"></i> Submit</button>
-     </form>
-    </div>
-   </section>
   </div>
-
  </body>
 
- </html>
+</html>
