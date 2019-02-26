@@ -132,3 +132,21 @@
   background: #999999;
   color: white;
 }
+
+.roe-image {
+ background-image: url("images/ROE-Rainbow.jpg");
+ background-color: #cccccc;
+ height: 500px;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ position: relative;
+}
+.roe-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
