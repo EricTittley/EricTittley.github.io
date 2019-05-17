@@ -150,3 +150,25 @@
   transform: translate(-50%, -50%);
   color: white;
 }
+.roe-banner {
+ background-image: url("../images/ROE-Rainbow-banner.jpg");
+ background-color: #cccccc;
+ height: 500px;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ position: relative;
+}
+.roe-banner-text {
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.cursive { font-family: URW Chancery L, cursive; }
+.serif { font-family: Georgia, serif; color: #ff8866}
+.impact { font-family: Impact, fantasy; }
+.white-background {  background-color: #ffffff; }
+
