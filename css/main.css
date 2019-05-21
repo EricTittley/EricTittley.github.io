@@ -167,8 +167,8 @@
   transform: translate(-50%, -50%);
   color: white;
 }
-.cursive { font-family: URW Chancery L, cursive; }
-.serif { font-family: Georgia, serif; color: #ff8866}
+.cursive { font-family: URW Chancery L, cursive; color: #FFCCCC }
+.serif { font-family: Palatino, URW Palladio L, serif; color: #33BBFF}
 .impact { font-family: Impact, fantasy; }
 .white-background {  background-color: #ffffff; }
 
