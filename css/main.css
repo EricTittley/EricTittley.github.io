@@ -133,6 +133,17 @@
   color: white;
 }
 
+.fa-inaturalist {
+  background: white;
+  color: white;
+  border-style: solid;
+  border-color: #74ac00;
+  border-width: 1px;
+  position:relative;
+  top:12px;
+  height:60px; 
+}
+
 .roe-image {
  background-image: url("../images/ROE-Rainbow.jpg");
  background-color: #cccccc;
