@@ -144,6 +144,17 @@
   height:60px; 
 }
 
+.fa-mastodon {
+  background: white;
+  color: white;
+  border-style: solid;
+  border-color: #007bb5;
+  border-width: 1px;
+  position:relative;
+  top:32px;
+  height:60px; 
+}
+
 .roe-image {
  background-image: url("../images/ROE-Rainbow.jpg");
  background-color: #cccccc;
